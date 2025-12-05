@@ -3,4 +3,5 @@
 
 const nuevoString = "variable";
 
-console.log (nuevoString)
+//console.log (nuevoString)
+module.exports = nuevoString

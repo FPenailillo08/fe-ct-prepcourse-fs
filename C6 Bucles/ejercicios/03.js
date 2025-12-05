@@ -3,6 +3,10 @@ function obtenerMayor(x, y) {
   // Retorna el número más grande.
   // Si son iguales, retornar cualquiera de los dos.
   // Tu código:
+  if (parseInt(x) && parseInt(y))
+    return Math.max (x,y)
+  else
+    return false
 }
-
+console.log(obtenerMayor(4,4))
 module.exports = obtenerMayor;
